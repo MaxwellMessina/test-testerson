@@ -4,7 +4,7 @@
 Rails.application.routes.draw do
 
   # GET root
-  root to: "main#index", as: :main
+  root to: "main#index"
   
   # GET /about
   get "/about-us", to: "about#index", as: :about
